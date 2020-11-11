@@ -29,6 +29,6 @@ Get-SPOTenantSyncClientRestriction
 
 Set-SPOTenantSyncClientRestriction  -ExcludedFileExtensions "ecc;ezz;exx;zzz;xyz;aaa;abc;ccc;vvv;xxx;ttt;micro;encrypted;locked;crypto;crinf;r5a;XRNT;XTBL;crypt;R16M01D05;pzdc;good;RDM;RRK;encryptedRSA;crjoker;EnCiPhErEd;LeChiffre;0x0;bleep;1999;vault;HA3;toxcrypt;magic;SUPERCRYPT;CTBL;CTB2;locky;cryp1;zepto"
 
-Write-Output "Excellent! You have configured your tenancy to not sync files with at least some known ransomware file extensions. Periodically update the list and your blacklist."
+Write-Output "Excellent! You have configured your tenancy to not sync files with at least some known ransomware file extensions. In the future make sure to periodically update the list and your blacklist."
 
 Stop-Transcript
